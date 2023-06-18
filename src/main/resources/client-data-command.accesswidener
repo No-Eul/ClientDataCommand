@@ -1,0 +1,34 @@
+accessWidener v2 named
+accessible method net/minecraft/client/world/ClientWorld getEntityLookup ()Lnet/minecraft/world/entity/EntityLookup;
+
+accessible field net/minecraft/command/BlockDataObject INVALID_BLOCK_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+
+accessible method net/minecraft/command/StorageDataObject <init> (Lnet/minecraft/command/DataCommandStorage;Lnet/minecraft/util/Identifier;)V
+accessible field net/minecraft/command/StorageDataObject SUGGESTION_PROVIDER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
+
+accessible method net/minecraft/command/EntitySelector appendEntitiesFromWorld (Ljava/util/List;Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/util/math/Box;Ljava/util/function/Predicate;)V
+accessible method net/minecraft/command/EntitySelector getAppendLimit ()I
+accessible method net/minecraft/command/EntitySelector getEntities (Lnet/minecraft/util/math/Vec3d;Ljava/util/List;)Ljava/util/List;
+accessible method net/minecraft/command/EntitySelector getOffsetBox (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Box;
+accessible method net/minecraft/command/EntitySelector getPositionPredicate (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Box;Lnet/minecraft/resource/featuretoggle/FeatureSet;)Ljava/util/function/Predicate;
+accessible field net/minecraft/command/EntitySelector entityFilter Lnet/minecraft/util/TypeFilter;
+accessible field net/minecraft/command/EntitySelector includesNonPlayers Z
+accessible field net/minecraft/command/EntitySelector playerName Ljava/lang/String;
+accessible field net/minecraft/command/EntitySelector positionOffset Ljava/util/function/Function;
+accessible field net/minecraft/command/EntitySelector senderOnly Z
+accessible field net/minecraft/command/EntitySelector usesAt Z
+accessible field net/minecraft/command/EntitySelector uuid Ljava/util/UUID;
+
+accessible method net/minecraft/server/command/DataCommand mapValues (Ljava/util/List;Lnet/minecraft/server/command/DataCommand$Processor;)Ljava/util/List;
+accessible method net/minecraft/server/command/DataCommand substring (Ljava/lang/String;I)Ljava/lang/String;
+accessible method net/minecraft/server/command/DataCommand substring (Ljava/lang/String;II)Ljava/lang/String;
+accessible field net/minecraft/server/command/DataCommand GET_INVALID_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+accessible field net/minecraft/server/command/DataCommand GET_MULTIPLE_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+accessible field net/minecraft/server/command/DataCommand GET_UNKNOWN_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+accessible field net/minecraft/server/command/DataCommand MERGE_FAILED_EXCEPTION Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;
+accessible field net/minecraft/server/command/DataCommand MODIFY_EXPECTED_OBJECT_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+accessible field net/minecraft/server/command/DataCommand MODIFY_EXPECTED_VALUE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
+accessible field net/minecraft/server/command/DataCommand MODIFY_INVALID_SUBSTRING_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
+accessible class net/minecraft/server/command/DataCommand$Processor
+
+accessible method net/minecraft/world/World getEntityLookup ()Lnet/minecraft/world/entity/EntityLookup;

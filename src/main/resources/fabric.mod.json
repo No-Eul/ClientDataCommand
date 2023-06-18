@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "client-data-command",
+	"version": "${version}",
+	"name": "${name}",
+	"description": "Add client-sided Data command",
+	"authors": [
+		{
+			"name": "NoEul",
+			"contact": {
+				"email": "me@NoEul.dev",
+				"homepage": "https://NoEul.dev",
+				"sources": "https://github.com/No-Eul"
+			}
+		}
+	],
+	"contact": {
+		"email": "me@NoEul.dev",
+		"homepage": "https://modrinth.com/mod/client-data-command",
+		"issues": "https://github.com/No-Eul/ClientDataCommand/issues",
+		"sources": "https://github.com/No-Eul/ClientDataCommand"
+	},
+	"contributors": [],
+	"license": "MIT",
+	"icon": "assets/client-data-command/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": ["dev.noeul.fabricmod.clientdatacommand.ClientDataCommandMod"]
+	},
+	"mixins": [
+		"client-data-command.mixins.json"
+	],
+	"accessWidener": "client-data-command.accesswidener",
+	"depends": {
+		"java": ">=${java_version}",
+		"minecraft": ">=1.21-beta.2",
+		"fabricloader": ">=${loader_version}",
+		"fabric-command-api-v2": "*"
+	},
+	"recommends": {
+		"modmenu": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"update_checker": true
+		}
+	}
+}
